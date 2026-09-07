@@ -1,0 +1,74 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Database files
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Uploaded files
+# =========================
+
+backend/uploads/*
+
+# =========================
+# IDE / Editor
+# =========================
+
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Node.js / Frontend
+# =========================
+
+node_modules/
+dist/
+build/
+.next/
+
+# =========================
+# Temporary files
+# =========================
+
+*.tmp
+*.temp
